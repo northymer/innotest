@@ -36,7 +36,7 @@
 }
 
 .List {
-  width: 900px;
+  width: 972px;
   margin: 0 auto;
 }
 
@@ -69,9 +69,19 @@
 }
 
 .Button {
+  border-radius: 4px;
   padding: 3px 10px;
   font-size: 12px;
   line-height: 20px;
+  border: 1px solid rgba(27,31,35,.2);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: #24292e;
+  background-color: #eff3f6;
+  > svg {
+    margin-right: 4px;
+  }
 }
 
 .List__item_main {
@@ -80,6 +90,11 @@
 
 .List__item_subitem {
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  > svg {
+    margin-right: 4px;
+  }
 }
 
 .List__item_description {

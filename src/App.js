@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import { res } from './result'
+import { ReactComponent as Star } from './assets/start.svg'
+import { ReactComponent as Fork } from './assets/fork.svg'
 
 const fetchList = async ({ language }) => {
   const response = await fetch(`https://api.github.com/search/repositories?sort=stars&order=desc&q=language:${language}+created`, {
@@ -76,7 +76,7 @@ function App() {
                     <div className='col'>
                       <div className='row'>
                         <a href={item.url}>{item.full_name.split('/').join(' / ')}</a>
-                        <button>Star</button>
+                        <button className="Button"><Star/> Star</button>
                       </div>
                       <div className='row'>
                         <p className="List__item_description">
@@ -87,8 +87,14 @@ function App() {
                         <div className="col">
                           <div className='row' style={{'justify-content': 'flex-start'}}>
                             <p className="List__item_subitem">{item.language}</p>
-                            <p className="List__item_subitem">{item.stargazers_count}</p>
-                            <p>{item.forks_count}</p>
+                            <p className="List__item_subitem">
+                              <Star/>
+                              {item.stargazers_count}
+                            </p>
+                            <p className="List__item_subitem">
+                              <Fork/>
+                              {item.forks_count}
+                            </p>
                           </div>
                         </div>
                         <div className="col">
