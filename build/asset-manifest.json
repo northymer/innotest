@@ -16,9 +16,9 @@
     "static/media/start.2b4bd74c.svg": "/static/media/start.2b4bd74c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26163eb2.js",
-    "static/js/2.5a589b3a.chunk.js",
-    "static/css/main.cb5bf926.chunk.css",
-    "static/js/main.2263c6b5.chunk.js"
+    "build/static/js/runtime-main.26163eb2.js",
+    "build/static/js/2.5a589b3a.chunk.js",
+    "build/static/css/main.cb5bf926.chunk.css",
+    "build/static/js/main.2263c6b5.chunk.js"
   ]
 }
