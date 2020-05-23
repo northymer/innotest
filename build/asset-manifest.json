@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "build/static/css/main.cb5bf926.chunk.css",
-    "main.js": "build/static/js/main.2263c6b5.chunk.js",
-    "main.js.map": "build/static/js/main.2263c6b5.chunk.js.map",
-    "runtime-main.js": "build/static/js/runtime-main.26163eb2.js",
-    "runtime-main.js.map": "build/static/js/runtime-main.26163eb2.js.map",
-    "static/js/2.5a589b3a.chunk.js": "build/static/js/2.5a589b3a.chunk.js",
-    "static/js/2.5a589b3a.chunk.js.map": "build/static/js/2.5a589b3a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7947fea90448dd692cc69fffa9fb56e1.js": "/precache-manifest.7947fea90448dd692cc69fffa9fb56e1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.cb5bf926.chunk.css.map": "/static/css/main.cb5bf926.chunk.css.map",
-    "static/js/2.5a589b3a.chunk.js.LICENSE.txt": "/static/js/2.5a589b3a.chunk.js.LICENSE.txt",
-    "static/media/fork.d334a2ef.svg": "/static/media/fork.d334a2ef.svg",
-    "static/media/start.2b4bd74c.svg": "/static/media/start.2b4bd74c.svg"
+    "main.css": "/innotest/build/static/css/main.cb5bf926.chunk.css",
+    "main.js": "/innotest/build/static/js/main.2263c6b5.chunk.js",
+    "main.js.map": "/innotest/build/static/js/main.2263c6b5.chunk.js.map",
+    "runtime-main.js": "/innotest/build/static/js/runtime-main.8e76049c.js",
+    "runtime-main.js.map": "/innotest/build/static/js/runtime-main.8e76049c.js.map",
+    "static/js/2.5a589b3a.chunk.js": "/innotest/build/static/js/2.5a589b3a.chunk.js",
+    "static/js/2.5a589b3a.chunk.js.map": "/innotest/build/static/js/2.5a589b3a.chunk.js.map",
+    "index.html": "/innotest/build/index.html",
+    "precache-manifest.f6b22d74cb54eb03ba65920415360fd7.js": "/innotest/build/precache-manifest.f6b22d74cb54eb03ba65920415360fd7.js",
+    "service-worker.js": "/innotest/build/service-worker.js",
+    "static/css/main.cb5bf926.chunk.css.map": "/innotest/build/static/css/main.cb5bf926.chunk.css.map",
+    "static/js/2.5a589b3a.chunk.js.LICENSE.txt": "/innotest/build/static/js/2.5a589b3a.chunk.js.LICENSE.txt",
+    "static/media/fork.d334a2ef.svg": "/innotest/build/static/media/fork.d334a2ef.svg",
+    "static/media/start.2b4bd74c.svg": "/innotest/build/static/media/start.2b4bd74c.svg"
   },
   "entrypoints": [
-    "build/static/js/runtime-main.26163eb2.js",
-    "build/static/js/2.5a589b3a.chunk.js",
-    "build/static/css/main.cb5bf926.chunk.css",
-    "build/static/js/main.2263c6b5.chunk.js"
+    "static/js/runtime-main.8e76049c.js",
+    "static/js/2.5a589b3a.chunk.js",
+    "static/css/main.cb5bf926.chunk.css",
+    "static/js/main.2263c6b5.chunk.js"
   ]
 }
